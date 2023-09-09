@@ -3,10 +3,6 @@ Capture multiple Faces from multiple users to be stored on a DataBase (dataset d
 	==> Faces will be stored on a directory: dataset/ (if does not exist, pls create one)
 	==> Each face will have a unique numeric integer ID as 1, 2, 3, etc                       
 
-Based on original code by Anirban Kar: https://github.com/thecodacus/Face-Recognition
-
-Developed by Marcelo Rovai - MJRoBot.org @ 21Feb18
-
 '''
 
 import cv2
@@ -46,7 +42,7 @@ while (True):
     k = cv2.waitKey(100) & 0xff  # Press 'ESC' for exiting video
     if k == 27:
         break
-    elif count >= 100:  # Take 30 face sample and stop video
+    elif count >= 100:  # Take 100 face sample and stop video
         break
 
 # Do a bit of cleanup
