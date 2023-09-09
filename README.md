@@ -1,5 +1,17 @@
-# Face-Detection-with-Name-Recognition
-Python face detection with name of the person and training of the dataset to recognize the face of the person
+# Speech Assistance for Blind People
+
+Speech Assistance for Blind People is a Python application that leverages the YOLO (You Only Look Once) object detection model and OpenCV to assist visually impaired individuals in navigating their surroundings. The application detects and recognizes objects in real-time and provides spoken descriptions to the user through a text-to-speech interface.
+
+## Features
+
+- **Real-time Object Detection:** The application uses YOLO to detect and recognize objects in the user's environment.
+- **Text-to-Speech (TTS) Integration:** It provides audible descriptions of detected objects using TTS.
+- **User-Friendly Interface:** Designed with simplicity in mind to ensure ease of use for visually impaired individuals.
+- **Customizable Voice Output:** Users can configure the TTS voice and speech rate to suit their preferences.
+- **Object Recognition:** In addition to detection, the application recognizes and identifies objects when possible.
+- **Detect Humans:** Can spell the name of the person who is standing in front of you.
+- **Voice Assistant:** Result is assisted to person through audio output.
+
 # Steps
 <ol>
   <li>Run the 01_face_dataset.py</li>
@@ -11,8 +23,7 @@ Python face detection with name of the person and training of the dataset to rec
   - run the file, following output will be displayed on the screen.<br>
 </ol>
 
-# YouTube Video
-Link : <a href="https://www.youtube.com/watch?v=Id-jWnmqPoE">https://www.youtube.com/watch?v=Id-jWnmqPoE</a>
+
 
 
 
